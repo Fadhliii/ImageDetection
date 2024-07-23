@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Asclepius" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Asclepius" parent="Base.Theme.Asclepius">
+        <item name="colorPrimary">@color/green</item>
+    </style>
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@drawable/ic_launcher_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/cat </item>
+        <item name="windowSplashScreenAnimationDuration">3000</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Asclepius</item>
+
+    </style>
+</resources>
